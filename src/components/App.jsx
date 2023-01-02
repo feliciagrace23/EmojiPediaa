@@ -13,7 +13,6 @@ function App() {
       </h1>
 
       <dl className="dictionary">{emojipedia.map(TermEmoji => {
-        
             <Entry
               key={TermEmoji.id}
               emoji={TermEmoji.emoji}
